@@ -10,7 +10,7 @@ The classifier as well as the [corpus of German VIDs](https://github.com/rafehr/
 
 There are two diffrent 'versions' of the classifier, since ELMo embeddings required some changes to the original architecture.
 
-1. Bilstm-mlp
+1. **Bilstm-mlp**
 
 To train the classifier the COLF-VID_1.0 corpus is required (which is already included in `data/`).
 
@@ -54,7 +54,7 @@ python evaluation.py
 
 The option `--data_set` allows the three values 'train', 'val' and 'test' (with 'val' as default).
 
-2. Bilstm-mlp-elmo
+2. **Bilstm-mlp-elmo**
 
 The first three steps are the same as for bilstm-mlp. To build the ELMo data set run:
 
