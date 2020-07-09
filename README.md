@@ -6,6 +6,8 @@ The classifier as well as the [corpus of German VIDs](https://github.com/rafehr/
 
 ### Requirements
 
+[Requirements file](https://github.com/rafehr/colf-bilstm-classifier/blob/master/requirements.txt)
+
 ### Training the classifier
 
 There are two diffrent 'versions' of the classifier, since ELMo embeddings required some changes to the original architecture.
